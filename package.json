@@ -1,0 +1,33 @@
+{
+    "name": "bs4snippets",
+    "displayName": "bs4snippets",
+    "description": "Simple Bootstrap 4 snippets generator",
+    "version": "1.0.0",
+    "publisher": "Sophia",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SophiaPrice/reponame"
+    },
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [{
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
